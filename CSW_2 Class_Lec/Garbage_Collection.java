@@ -8,7 +8,10 @@ class Employee{
     this.age=age;
     this.ID=nextId++;
   }
-  public void show(){
+   public void show(){
+    system.out.println("Id : "+Id+"Name : "+name+"Age : "+age);
+  }
+  public void showNextId(){
     system.out.println("Next Employee id will be ="+nextId);
   }
 }
