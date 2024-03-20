@@ -9,10 +9,10 @@ class Employee{
     this.ID=nextId++;
   }
    public void show(){
-    system.out.println("Id : "+Id+"Name : "+name+"Age : "+age);
+    System.out.println("Id : "+Id+" Name : "+name+" Age : "+age);
   }
   public void showNextId(){
-    system.out.println("Next Employee id will be ="+nextId);
+    System.out.println("Next Employee id will be ="+nextId);
   }
 }
 class Garbage_Collection_1{
@@ -25,7 +25,7 @@ class Garbage_Collection_1{
     G.show();
     {
       Employee X = new Employee("Subham", 21);
-      Employee E = new Employee("Aayush", 20);
+      Employee Y = new Employee("Aayush", 20);
       X.show();
       Y.show();
       X.showNextId();
