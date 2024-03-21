@@ -69,5 +69,5 @@ class Garbage_Collection_2{
 //( Id : 5 ) ( Name : Aayush )  ( Age : 20 )
 //Next Employee id will be =6
 
-Next Employee id will be =4
+//Next Employee id will be =4
 
