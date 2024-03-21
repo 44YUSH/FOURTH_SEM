@@ -18,19 +18,36 @@ class Employee{
 class Garbage_Collection_1{
   public static void main(String[]args){
     Employee E = new Employee("Anisha", 20);
-    Employee F = new Employee("Sidlu", 40);
-    Employee G = new Employee("SubhaCR", 150);
     E.show();
+    E.showNextId();
+    Employee F = new Employee("Sidlu", 40);
     F.show();
+    F.showNextId();
+    Employee G = new Employee("SubhaCR", 150);
     G.show();
+    G.showNextId();
     {
       Employee X = new Employee("Subham", 21);
-      Employee Y = new Employee("Aayush", 20);
       X.show();
-      Y.show();
       X.showNextId();
+      Employee Y = new Employee("Aayush", 20);
+      Y.show();
       Y.showNextId();
     }
     E.showNextId();
   }
 }
+
+
+//OUTPUT
+//Id : 1 Name : Anisha Age : 20
+//Next Employee id will be =2
+//Id : 2 Name : Sidlu Age : 40
+//Next Employee id will be =3
+//Id : 3 Name : SubhaCR Age : 150
+//Next Employee id will be =4
+//Id : 4 Name : Subham Age : 21
+//Next Employee id will be =5
+//Id : 5 Name : Aayush Age : 20
+//Next Employee id will be =6
+//Next Employee id will be =6
