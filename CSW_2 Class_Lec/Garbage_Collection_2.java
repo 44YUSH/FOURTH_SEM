@@ -52,3 +52,22 @@ class Garbage_Collection_2{
     E.showNextId();
   }
 }
+
+//OUTPUT
+//( Id : 1 ) ( Name : Anisha )  ( Age : 20 )
+//Next Employee id will be =2
+
+//( Id : 2 ) ( Name : Sidlu  )  ( Age : 40 )
+//Next Employee id will be =3
+
+//( Id : 3 ) ( Name : Subha  )  ( Age : 150 )
+//Next Employee id will be =4
+
+//( Id : 4 ) ( Name : Subham )  ( Age : 21 )
+//Next Employee id will be =5
+
+//( Id : 5 ) ( Name : Aayush )  ( Age : 20 )
+//Next Employee id will be =6
+
+Next Employee id will be =4
+
