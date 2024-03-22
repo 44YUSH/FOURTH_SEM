@@ -24,7 +24,7 @@ class Job implements Comparable<Job>{
 	}
 }
 
-public class IntervalScheduling {
+public class Interval_Scheduling {
 	public static void findOptimalJobScheule(Job[] jobs){
 		System.out.println("Input Jobs: \t" + Arrays.toString(jobs));
 		Arrays.sort(jobs);		//Sort jobs by finish time
@@ -58,6 +58,6 @@ public class IntervalScheduling {
 			new Job(6, 10, "g"),
 			new Job(8, 11, "h"),
 		};
-		IntervalScheduling.findOptimalJobScheule(jobs);
+		Interval_Scheduling.findOptimalJobScheule(jobs);
 	}
 }
