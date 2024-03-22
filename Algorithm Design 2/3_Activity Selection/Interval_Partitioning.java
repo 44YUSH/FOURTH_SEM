@@ -93,3 +93,9 @@ public class Interval_Partitioning {
         }
     }
 }
+
+/*OUTPUT
+................................
+Optimal Schedule:
+-----------------
+Number of rooms required: -2 */
