@@ -20,3 +20,9 @@ class Animals {
 	}
  }
 
+/*
+OUTPUT
+
+Eating...
+Baking...
+ */
