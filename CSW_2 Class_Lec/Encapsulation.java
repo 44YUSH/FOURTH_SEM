@@ -30,4 +30,12 @@ class Encapsulation {
  System.out.println("Employee SSN Code is: " + obj.getEmployeeSSN());
  System.out.println("Employee Age is: " + obj.getEmployeeAge());
  }
- } 
+ }
+ 
+ /*
+OUTPUT
+
+Employee Name is: Mark
+Employee SSN Code is: 12345
+Employee Age is: 30
+ */
