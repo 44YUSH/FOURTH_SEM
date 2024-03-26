@@ -21,5 +21,11 @@ public class Interface {
 		D.method1();
 		D.method2();
 	}
-
 }
+
+/*
+OUTPUT
+
+My method 1
+My method 2
+*/
