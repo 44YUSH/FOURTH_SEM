@@ -6,7 +6,7 @@ class sum{
 		return a+b+c;
 	}
 }
-public class Overload {
+public class Polymorphism_RunTime_Overloading {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

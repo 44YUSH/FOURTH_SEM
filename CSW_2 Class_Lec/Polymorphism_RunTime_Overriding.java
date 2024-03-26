@@ -8,12 +8,17 @@ class Sher extends Pashu{
 		System.out.println("Sher khana kha raha hai...");
 	}
 }
-public class Overriding {
+public class Polymorphism_RunTime_Overriding {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Pashu p=new Sher();
 		p.khana();
 	}
-
 }
+
+/*
+OUTPUT
+
+Sher khana kha raha hai...
+*/
