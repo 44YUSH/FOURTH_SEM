@@ -8,7 +8,7 @@ class Ford extends Cars{
 		System.out.println("Running at 80 kmph");
 	}
 }
-public class Run_Time_Polymorphism_Overriding {
+public class Polymorphism_RunTime {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -16,3 +16,9 @@ public class Run_Time_Polymorphism_Overriding {
 		c.run();
 	}
 }
+
+/*
+OUTPUT
+
+Running at 80 kmph
+*/
