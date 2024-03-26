@@ -16,7 +16,7 @@ class Animaal {
 		}
 	}
 
- public class multilevel{
+ public class ii_Multilevel_Inheritance{
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		pup obj=new pup();
@@ -26,3 +26,10 @@ class Animaal {
 	}
  }
 
+/*
+OUTPUT
+
+Eating...
+Baking...
+Weep...
+*/
