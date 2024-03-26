@@ -1,3 +1,5 @@
+/* One way to achive abstraction is ABSTRACT CLASS. */
+
 abstract class Bike{
 	abstract void run();
 	
@@ -7,7 +9,7 @@ class RE extends Bike{
 		System.out.println("Running...RoyalEnfield");
 	}
 }
-public class Abstraction {
+public class Abstraction_Abstract {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -17,3 +19,9 @@ public class Abstraction {
 	}
 
 }
+
+/*
+OUTPUT
+
+Running...RoyalEnfield
+*/
