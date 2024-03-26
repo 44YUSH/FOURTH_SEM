@@ -1,3 +1,5 @@
+/* Second way to achive abstraction is INTERFACE CLASS. */
+
 abstract class shape{
 	abstract void draw();
 }
@@ -11,7 +13,7 @@ class rectangle extends shape{
 		System.out.println("Drawing a RECTANGLE.");
 	}
 }
-public class Abstraction_2 {
+public class Abstraction_Interface {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -22,3 +24,10 @@ public class Abstraction_2 {
 	}
 
 }
+
+/*
+OUTPUT
+
+Drawing a CIRCLE.
+Drawing a RECTANGLE.
+*/
