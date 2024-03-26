@@ -14,7 +14,7 @@ class Mamals{
 		}
 	}
 
-public class Hirarchical {
+public class iii_Hirarchica_Inheritancel {
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -27,3 +27,9 @@ public class Hirarchical {
 
 }
 
+/*
+OUTPUT
+
+Wow..wowo..wo
+Meow...meow
+*/
