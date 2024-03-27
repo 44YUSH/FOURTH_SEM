@@ -25,7 +25,7 @@ public class Concartination{
 
         System.out.println("...................");
 
-        /* Using CONCARTINATION METHOD. */
+/* CONCARTINATION Using CONCARTINATION METHOD. */
 
         String r1="Radhe";
         r1=r1.concat("Krishna");
