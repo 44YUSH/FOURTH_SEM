@@ -16,7 +16,7 @@ public class person {
 		}
 
         public class main {
-	        public static void main (String[]args) {
+	        public void main (String[]args) {
 		        person p=new person();
 		        p.setName("RadheKrisn");
 	        	p.setAge(19);
