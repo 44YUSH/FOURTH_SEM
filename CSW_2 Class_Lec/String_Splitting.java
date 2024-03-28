@@ -16,6 +16,15 @@ public class String_Splitting {
         for(String b : split){
             System.out.println(b);
         }
+        System.out.println(".................");
+
+        String srt3="Hello @How @Are @You @@";
+        
+        String [] splitt=srt3.split("@", -2);
+        for(String c : splitt){
+            System.out.println(c);
+        }
+        System.out.println(".................");
     }
 }
 
@@ -29,4 +38,12 @@ Hello
 How 
 Are 
 You
+.................
+Hello 
+How 
+Are 
+You 
+
+
+.................
 */
