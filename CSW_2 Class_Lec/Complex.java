@@ -8,10 +8,8 @@ class complex_number{
 public class Complex {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-	complex_number c1=new complex_number(10.7, 15.9);
-	System.out.println(c1);
+	    complex_number c1=new complex_number(10.7, 15.9);
+	    System.out.println(c1);
 	}
 
 }
