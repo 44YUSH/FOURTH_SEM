@@ -1,3 +1,4 @@
+package Class_Lectures;
 class Mamals{
 	public void sound() {
 		System.out.println("Sound");

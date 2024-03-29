@@ -1,4 +1,4 @@
-
+package Class_Lectures;
 public class Generic_Method {
 	
 	public static <E> void printArray(E[]elements) {

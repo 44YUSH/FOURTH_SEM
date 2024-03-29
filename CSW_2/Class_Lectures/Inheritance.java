@@ -1,4 +1,4 @@
-
+package Class_Lectures;
 public class Inheritance {
 	int salary = 40000;
 }

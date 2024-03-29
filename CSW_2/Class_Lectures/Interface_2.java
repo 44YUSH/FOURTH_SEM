@@ -1,3 +1,4 @@
+package Class_Lectures;
 interface stand{
 	public void method1();
 }

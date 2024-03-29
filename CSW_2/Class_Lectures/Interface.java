@@ -1,3 +1,4 @@
+package Class_Lectures;
 interface myInterface1{
 	public void method1(); 
 }

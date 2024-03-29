@@ -1,3 +1,4 @@
+package Class_Lectures;
 public class person {
 
 		private String name;

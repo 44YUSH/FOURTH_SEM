@@ -1,3 +1,4 @@
+package Class_Lectures;
 public class Concartination_Example_1 {
     public static void main(String[] args) {
         String s1, s2, s3;

@@ -1,4 +1,4 @@
-
+package Class_Lectures;
 class Animals {
 	
 	void eat(){

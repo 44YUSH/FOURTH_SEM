@@ -1,3 +1,4 @@
+package Class_Lectures;
 class Multiply{
 	static int mult(int a, int b) {
 		return a*b;

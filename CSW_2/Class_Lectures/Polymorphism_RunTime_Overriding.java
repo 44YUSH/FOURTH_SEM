@@ -1,3 +1,4 @@
+package Class_Lectures;
 class Pashu{
 	void khana() {
 		System.out.println("Kha raha hai...");

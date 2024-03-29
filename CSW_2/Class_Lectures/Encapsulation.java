@@ -1,3 +1,4 @@
+package Class_Lectures;
 class Encapsulation {
  private int ssnValue;
  private int employeeAge;

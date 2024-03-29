@@ -1,5 +1,5 @@
 /* Second way to achive abstraction is INTERFACE CLASS. */
-
+package Class_Lectures;
 abstract class shape{
 	abstract void draw();
 }

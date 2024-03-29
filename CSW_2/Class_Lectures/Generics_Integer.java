@@ -1,3 +1,4 @@
+package Class_Lectures;
 import java.util.*;
 public class Generics_Integer {
 	public static void main(String[]args) {
