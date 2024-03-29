@@ -1,3 +1,4 @@
+package Class_Lectures;
 import java.util.*;
 
 class Product{

@@ -1,3 +1,4 @@
+package Class_Lectures;
 class A{
 	public String name;
 	public String getName() {

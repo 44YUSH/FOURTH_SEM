@@ -7,6 +7,7 @@
                ii. Run_Time
  */
 
+package Class_Lectures;
 class multiplys{
 	static int mult(int a, int b) {
 		return a*b;

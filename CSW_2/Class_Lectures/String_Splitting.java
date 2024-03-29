@@ -1,5 +1,6 @@
 /*   String_Splitting.  */
 
+package Class_Lectures;
 public class String_Splitting {
     public static void main(String[] args) {
         String str1="ITER :A SOA University";
