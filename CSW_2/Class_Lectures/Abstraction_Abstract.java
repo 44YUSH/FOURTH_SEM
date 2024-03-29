@@ -1,3 +1,5 @@
+package Class_Lectures;
+
 /* One way to achive abstraction is ABSTRACT CLASS. */
 
 abstract class Bike{
