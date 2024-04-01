@@ -12,7 +12,6 @@ class Sher extends Pashu{
 public class Polymorphism_RunTime_Overriding {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		Pashu p=new Sher();
 		p.khana();
 	}
