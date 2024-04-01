@@ -14,7 +14,6 @@ class Product{
 public class Stream_API {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		List<Product>productList=new ArrayList<Product>();
 		//Adding Products
 		productList.add(new Product(1, "APPLE Laptop", 90000f));
