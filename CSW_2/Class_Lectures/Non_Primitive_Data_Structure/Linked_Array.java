@@ -4,38 +4,28 @@ package Class_Lectures.Non_Primitive_Data_Structure;
 
 public class Linked_Array {
     public static void main(String[] args) {
-        int array[][] = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}, {10, 11, 12}};
+        int array[][] = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9},{11, 12, 13}};
         int rows = array.length;
         int columns = array[0].length;
-        int index = 0;
-        int currentRow = 0;
-        int currentColumn = 0;
-        boolean goingDown = true;
-
-        while (index < rows * columns) {
-            if (currentRow == -1) {
-                currentRow = 0;
-                currentColumn++;
-                goingDown =!goingDown;
+        int m[]=new int[rows*columns];
+        int k=0;
+        for(int i=0; i<rows; i++){
+            if(i%2==0){
+                for(int j=0; j<columns; j++){
+                    m[k]=array[i][j];
+                    k++;
+                }
             }
-            if (currentColumn == columns) {
-                currentColumn = columns - 1;
-                currentRow++;
-                goingDown =!goingDown;
+            else{
+                for(int j=columns-1; j>=0; j--){
+                    m[k]=array[i][j];
+                    k++;
+                }
             }
-            System.out.print(array[currentRow][currentColumn] + " ");
-            index++;
-            if (goingDown) {
-                currentRow++;
-            } else {
-                currentRow--;
-            }
+        }
+        for(int j=0; j<rows*columns; j++){
+            System.out.print(m[j]+" ");
         }
     }
 }
-
-/*
-OUTPUT
-
-1 4 7 10 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index 4 out of bounds for length 4 at Class_Lectures.Non_Primitive_Data_Structure.Linked_Array.main(Linked_Array.java:26).
- */
+        
