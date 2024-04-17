@@ -5,16 +5,16 @@ class Animaal {
 		System.out.println("Eating...");
 	}
 }
-	class dogs extends Animaal{
-		public void bark() {
-			System.out.println("Baking...");
+class dogs extends Animaal{
+	public void bark() {
+		System.out.println("Baking...");
 	}
 }
-	class pup extends dogs{
-		public void weep() {
-			System.out.println("Weep...");
-		}
+class pup extends dogs{
+	public void weep() {
+		System.out.println("Weep...");
 	}
+}
 
  public class ii_Multilevel_Inheritance{
 	public static void main(String[] args) {
