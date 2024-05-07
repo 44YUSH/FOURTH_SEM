@@ -15,7 +15,7 @@ class Mamals{
 		}
 	}
 
-public class iii_Hirarchica_Inheritancel {
+public class Hirarchica_Inheritancel {
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

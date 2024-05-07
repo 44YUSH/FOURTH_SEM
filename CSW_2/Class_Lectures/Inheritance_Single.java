@@ -11,7 +11,7 @@ class dog extends Animals{
 	}
 }
 
-public class i_Single_Inheritance{
+class Single_Inheritance{
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		dog obj=new dog();

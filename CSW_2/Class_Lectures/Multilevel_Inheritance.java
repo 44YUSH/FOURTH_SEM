@@ -16,7 +16,7 @@ class pup extends dogs{
 	}
 }
 
- public class ii_Multilevel_Inheritance{
+ public class Multilevel_Inheritance{
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		pup obj=new pup();
