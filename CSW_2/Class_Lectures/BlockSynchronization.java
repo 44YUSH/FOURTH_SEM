@@ -1,3 +1,4 @@
+package Class_Lectures;
 public class BlockSynchronization{
     public static void main(String[]args){
         Calculator calculator=new Calculator();
