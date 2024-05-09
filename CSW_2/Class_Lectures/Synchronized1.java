@@ -33,3 +33,28 @@ public class Synchronized1{
         thread2.start();
     }
 }
+
+/*
+OUTPUT:
+
+Increment count: 1
+Decrement count: 0
+Decrement count: -1
+Decrement count: -2
+Decrement count: -3
+Decrement count: -4
+Decrement count: -5
+Decrement count: -6
+Decrement count: -7
+Decrement count: -8
+Decrement count: -9
+Increment count: -8
+Increment count: -7
+Increment count: -6
+Increment count: -5
+Increment count: -4
+Increment count: -3
+Increment count: -2
+Increment count: -1
+Increment count: 0
+ */
