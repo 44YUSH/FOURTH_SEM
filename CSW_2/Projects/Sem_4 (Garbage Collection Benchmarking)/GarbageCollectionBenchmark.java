@@ -52,6 +52,9 @@ garbage collection logging in the JVM and analyze the logs generated during benc
 
 1. **Enable GC Logging**: Start the JVM with the appropriate GC logging flags, such as `-verbose:gc`, `-Xloggc:<filename>`, and `-XX:+PrintGCDetails`.
 
+{ JVM is a JAVA VIRTUAL MACHINE that enables the execution of Java bytecode. The JVM acts as an interpreter between the Java programming language and the underlying hardware.
+  It provides a runtime environment for Java applications to run on different platforms and operating systems. }
+
 2. **Run Benchmark**: Execute the benchmarking application multiple times with different workload types.
 
 3. **Analyze GC Logs**: Examine the GC logs generated during benchmark runs to understand GC behavior, including pause times, frequency of collections, heap usage, and 
