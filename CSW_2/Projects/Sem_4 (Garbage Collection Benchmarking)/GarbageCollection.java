@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class File {
+public class GarbageCollection {
 
     public static void main(String[] args) {
         // Define workload types
